@@ -10,16 +10,14 @@ const swiper = new Swiper('.swiper', {
   paginationClickable: true,
   direction: 'horizontal',
   // Navigation arrows
-  /*
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }
-  */
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
   breakpoints: {
     1920: {
         slidesPerView: 1,
-        spaceBetween: 10
+        spaceBetween: 0
     },
     1028: {
         slidesPerView: 1,
